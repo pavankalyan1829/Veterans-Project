@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=devoce-width, initial-scale=1.0">
+    <title>Vetraran's Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@0,100;0,300;0,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="header">
+               <nav>
+                <a href="index.html"><img src="images/v.jpg" , width="75px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./login.html">LOGIN/SIGNUP</a></li>
+                        <li><a href="./projects.html">PROJECTS</a></li>
+                        <li><a href="">CLASSES</a></li>
+                        <li><a href="./hack.html">HACKATHONS</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="./contact.html">CONTACT US</a></li>                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+               </nav>
+               <div class="text-box">
+                <h1>The Vetraran's Project</h1>
+                <a href="./contact.html" class="hero-btn">Visit us to know more</a>
+               </div>
+        </section>
+        <section class="Ach">
+            <h1>What is Vetraran's Project??</h1>
+            <div class="pp">
+            <p>The primary motive for a student project focused on a website storing engineering projects data could be to create a centralized platform that fosters collaboration, knowledge sharing, and inspiration among engineering students.</br>This platform aims to showcase a diverse range of projects, encouraging students to learn from each other's experiences and strive for higher quality projects.</br> Additionally, features like project documentation, feedback, and ratings can provide constructive insights, motivating students to excel in their academic endeavors.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="vce">
+            <h1>Vasavi College of Engineering</h1>
+            <img src="./images/vasavi.jpeg">
+            </div>
+            <img class="loc" src="./images/Screenshot 2023-12-17 103102.png">
+        </section>
+        <footer></footer>
+ 
+<!----JavaScript--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKATHONS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('./images/hacck.jpg'); /* Replace with the actual path to your background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        #hackathonList {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .hackathonItem,.hackathonItem:hover {
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            max-width: 300px;
+            color: aqua;
+        }
+
+        .hackathonItem a,.hackathonItem a:hover {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: block;
+            margin-top: 10px;
+            color: turquoise;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Hackathon Links</h1>
+        <ul id="hackathonList">
+            <li class="hackathonItem">
+                <h2>Hackathon 1</h2>
+                <a href="https://accelerate.hackerearth.com/">Visit Hackathon</a>
+            </li>
+            <li class="hackathonItem">
+                <h2>Hackathon 2</h2>
+                <a href="https://glc-hp.hackerearth.com/">Visit Hackathon</a>
+            </li>
+            <!-- Add more hackathon items as needed -->
+        </ul>
+    </div>
+
+</body>
+
+</html>
